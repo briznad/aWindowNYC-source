@@ -16,8 +16,8 @@ module.exports = function(grunt) {
             sassInput: 'assets/sass/',
             coffeeInput: 'assets/coffee/',
             jsRawIO: 'assets/js/',
-            cssOutput: '../www.awindownyc.com/assets/css/',
-            jsOutput: '../www.awindownyc.com/assets/js/'
+            cssOutput: 'built/assets/css/',
+            jsOutput: 'built/assets/js/'
         },
 
         clean: {
